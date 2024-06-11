@@ -1,7 +1,4 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { addToDo, deleteToDo, toggleToDo } from './redux/store';
-import { useState } from 'react';
 import { Todolist } from './Todolist';
 import { TodoAdd } from './TodoAdd';
 
